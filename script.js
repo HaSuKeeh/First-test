@@ -1,7 +1,7 @@
 //DECLARANDO AS VARIAVEIS
 let p1=prompt("Digite seu nome");
-let p2=prompt("O que você gostaria de ter com você?");
-let p3=prompt("Em uma escala de 1 a 3, o quanto você irá se dedicar para conquistar tal desejo?");
+let p2=prompt("O que você gostaria de ter conquistar?");
+let p3=prompt("Em uma escala de 1 a 5, o quanto você irá se dedicar para conquistar tal desejo?");
 let msg=document.getElementById("msg");
 
 if (p3 == 1)
@@ -21,4 +21,6 @@ if (p3 == 1)
 else if (p3 == 5){
     msg.innerHTML=`<p>Olá, ${p1}. Seu desejo de conquistar ${p2} é surreal, 
     com muito esforço e dedicação você irá realizá-lo em breve, até porque força de vontade você tem bastante!!!</p>`
+}else (p3 != 1 || 2 || 3 || 4 || 5){
+    let p3=prompt("Em uma escala de 1 a 5, o quanto você irá se dedicar para conquistar tal desejo?");
 }

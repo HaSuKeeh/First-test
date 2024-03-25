@@ -4,15 +4,22 @@
   }
   body{
     background: black;
-    font-size: 40px;
-    color:crimson;
+    font-size: 35px;
+    color:white;
     text-align: center;
   }
   p{
-    background-image: linear-gradient( to right, rgb(126, 126, 126) , purple);
-    font-size: 30px;
+    background-image: linear-gradient( to right, rgb(158, 158, 158) , purple);
+    font-size: 25px;
     text-align: center;
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    margin-top: 10px;
+  }
+  hr
+  {
+    color: white;
+    width: 60vw;
+    margin-left: 18%;
   }
